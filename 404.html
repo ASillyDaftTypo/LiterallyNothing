@@ -86,7 +86,7 @@ h2 {
 <audio id="beep-one" preload><source src="work_work.mp3"></source></audio>
 <audio id="beep-two" preload><source src="dont_copy_that_floppy.mp3"></source></audio>
 <audio id="beep-three" preload><source src="ventrillo_gold.mp3"></source></audio>
-<audio id="beep-four" preload><source src="The_Sound_of_Silence_Short.mp3"></source></audio>
+<!--<audio id="beep-four" preload><source src="The_Sound_of_Silence_Short.mp3"></source></audio>-->
 </head>
 
 
@@ -110,7 +110,7 @@ h2 {
 	<img src="porg_bro.png" alt="Porg!" style="width:1350px;height:650px;">
 </span>
 
-<script> 
+<script>
 var beepOne = $("#beep-one")[0];
 var beepTwo = $("#beep-two")[0];
 var beepThree = $("#beep-three")[0];
@@ -119,6 +119,7 @@ $("#linkedin_sound")
 	.mouseenter(function() {
 		beepOne.play();
 	});
+
 $("#github_sound")
 	.mouseenter(function() {
 		beepTwo.play();
